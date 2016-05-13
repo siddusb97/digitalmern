@@ -1,20 +1,16 @@
 .banner {
 	background: url(../img/swb1.jpg) no-repeat;
-	width: 900px;
-	height: 300px;
+	width: 1000px;
+	height: 400px;
 	clear: left;
-
+margin-top: 10px;
 	}
 
 	.banner h3{
 		color: white;
-		margin: 236px;
+		margin: 306px;
 	}
 
-.callout{
-	background: url(../img/images.jpg) no-repeat;
-	height: 669px;
-}
 
 header h1 {
 	width: 174px;
@@ -23,9 +19,37 @@ header h1 {
 	float: left;
 	font-family: sans-serif;
 }
+blockquote{
+	position: relative;
+}
 
+.sub-menu{
+	margin-top:500px;
 
+}
+.sub1{
+	background: url(../img/challange.jpg) no-repeat;
+	width: 300px;
+	height: 300px;
 
+}
+.sub2{
+	background: url(../img/sb.jpg) no-repeat;
+	width: 300px;
+	height: 300px;
+
+}
+.sub3{
+	background: url(../img/modi.jpg) no-repeat;
+	width: 300px;
+	height: 300px;
+
+}
+.sub-main{
+	background: url(../img/gandhi-ji.jpg) no-repeat;
+	width: 1000px;
+	height: 693px;
+}
 p{
 	font-size: 13px;
 	line-height: 20px;
@@ -39,24 +63,17 @@ blockquote,blockquote p {
 	color:#0e0e0e;
 }
 
-.social-media{
-float: right;
-}
 
 .main{
-	margin-top: 380px;
+	margin-top: 840px;
 }
 .main blockquote p:before,
 .main blockquote p:after{
 	font-size: 40px;
 	color:#bfbfbf;
 	font-style: italic;
-
-
 }
-blockquote{
-	position: relative;
-}
+
 
 .main blockquote p{
 	padding-left: 30px;
@@ -78,6 +95,12 @@ blockquote{
 
 }
 
+.social-media{
+	    margin-top: -15px;
+	    clear: both;
+		  float: right;
+}
+
 h1,h2{
 	letter-spacing: -1px;
 }
@@ -88,12 +111,6 @@ h2{
     margin:10px 10px;
     color: #333;
 }
-
-footer{
-	margin-top: 50px;
-	clear: both;
-}
-
 nav li,footer li {
 	display: inline;
 }
@@ -108,4 +125,20 @@ a{
 }
 a:hover, .selected{
 	color: black;
+}
+
+hr {
+    height: 12px;
+    border: 0;
+		margin-top: 10px;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+.sub-main h3{
+	margin-top: 600px;
+	margin-left: 500px;
+}
+footer ul p{
+	float:left;
+	clear:right;
 }
